@@ -53,15 +53,14 @@ public class CRMCreateContactPerson {
 
         driver.findElement(By.xpath("//button[contains(text(),'Сохранить и закрыть')]")).click();
 
-//        webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.))
-
-
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()='Контактное лицо сохранено']")));
         driver.findElement(By.xpath("//*[text()='Контактное лицо сохранено']"));
 
         System.out.println("Тест PositiveCreateContactPerson выполнен успешно");
 
         Thread.sleep(5000);
+
+        driver.quit();
 
     }
 

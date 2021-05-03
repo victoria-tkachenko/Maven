@@ -24,7 +24,6 @@ public class CRMCreateProject {
 
         driver.get("https://crm.geekbrains.space/project/my");
 
-
         driver.findElement(By.xpath("//a[text()='Создать проект']")).click();
 
         Thread.sleep(5000);
@@ -61,8 +60,7 @@ public class CRMCreateProject {
         selectProjectManager.selectByVisibleText("Амелин Владимир");
 
         driver.findElement(By.xpath("//button[contains(text(),'Сохранить и закрыть')]")).click();
-
-
+        
         WebDriverWait webDriverWait = new WebDriverWait(driver, 7);
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[text()='Проект сохранен']")));
 
