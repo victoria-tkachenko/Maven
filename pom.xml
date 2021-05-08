@@ -83,6 +83,26 @@
       <scope>test</scope>
     </dependency>
 
+    <dependency>
+      <groupId>ru.yandex.qatools.htmlelements</groupId>
+      <artifactId>htmlelements-matchers</artifactId>
+      <version>1.19</version>
+      <exclusions>
+        <exclusion>
+          <artifactId>selenium-java</artifactId>
+          <groupId>org.seleniumhq.selenium</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.4.0</version>
+      <scope>test</scope>
+    </dependency>
+
 
   </dependencies>
 
