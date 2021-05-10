@@ -81,4 +81,8 @@ public class CRMCreateProject {
         driver.findElement(By.id("_submit")).click();
 
     }
+
+    private static void loginWithCookie() {
+
+    }
 }
