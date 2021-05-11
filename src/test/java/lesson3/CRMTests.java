@@ -168,7 +168,7 @@ public class CRMTests {
         driver.findElement(By.xpath("//*[@id='select2-drop-mask']/../div/div/input")).sendKeys(Keys.ENTER);
 
         driver.findElement(By.xpath("//div[@data-ftid='crm_business_trip_foreignUsers']/../div/a")).click();
-        webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("crm_business_trip[foreignUsers][0][description]")));
+        webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.name("crm_business_trip[foreignUsers][0][description]")));
 
         driver.findElement(By.name("crm_business_trip[foreignUsers][0][description]")).sendKeys("Ведение переговоров");
 
@@ -184,7 +184,7 @@ public class CRMTests {
         driver.findElement(By.xpath("//a[text()='15']")).click();
 
         driver.findElement(By.xpath("//label[contains(text(),'Планируемая дата возвращения')]//" +
-                "ancestor::div[@class='control-group control-group-date']/div[@class='controls validation-error']/input")).click();
+                "ancestor::div[@class='control-group control-group-date']/div[@class='controls']/input")).click();
 
         webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[text()='20']")));
 
