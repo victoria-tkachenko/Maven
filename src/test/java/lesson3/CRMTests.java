@@ -33,7 +33,7 @@ public class CRMTests {
     @BeforeMethod
     void setupBrowser() {
         driver = new ChromeDriver();
-       webDriverWait = new WebDriverWait(driver, 5);
+       webDriverWait = new WebDriverWait(driver, 10);
        driver.get(BASE_URL);
        loginWithCookie();
     }
@@ -207,13 +207,13 @@ public class CRMTests {
     }
 
     @Test(description = "Создание организации", enabled = true)
-    void createOrnanization() {
+    void createOrganization() {
         driver.get("https://crm.geekbrains.space/company/create");
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
-        driver.findElement(By.name("crm_company[name]")).sendKeys("1234");
+        driver.findElement(By.name("crm_company[name]")).sendKeys("Первая");
 
-        driver.findElement(By.name("crm_company[shortName]")).sendKeys("1234");
+        driver.findElement(By.name("crm_company[shortName]")).sendKeys("Перв");
 
         driver.findElement(By.name("crm_company[companyType][]")).click();
 
@@ -222,7 +222,7 @@ public class CRMTests {
         Select selectIndustry = new Select(driver.findElement(By.name("crm_company[industry]")));
         selectIndustry.selectByVisibleText("Банковская деятельность");
 
-        webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.name("//a[contains(text(),'Добавить адрес')]")));
+        webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//a[contains(text(),'Добавить адрес')]")));
 
         driver.findElement(By.xpath("//a[contains(text(),'Добавить адрес')]")).click();
 
@@ -264,7 +264,7 @@ public class CRMTests {
     private void loginWithCookie() {
         Cookie sessionCookie = driver.manage().getCookieNamed("BAPID");
         driver.manage().deleteCookie(sessionCookie);
-        Cookie cookie = new Cookie("BAPID", "ee5e7cb51bbf0d8ec4a718c939a37cd9");
+        Cookie cookie = new Cookie("BAPID", "306539de90c4262a5fc5459e88dbfec7");
         driver.manage().addCookie(cookie);
         driver.navigate().refresh();
     }
