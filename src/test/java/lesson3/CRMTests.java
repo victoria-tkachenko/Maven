@@ -264,7 +264,7 @@ public class CRMTests {
     private void loginWithCookie() {
         Cookie sessionCookie = driver.manage().getCookieNamed("BAPID");
         driver.manage().deleteCookie(sessionCookie);
-        Cookie cookie = new Cookie("BAPID", "306539de90c4262a5fc5459e88dbfec7");
+        Cookie cookie = new Cookie("BAPID", "2b18a283e9ec5f218feb24ac692bcead");
         driver.manage().addCookie(cookie);
         driver.navigate().refresh();
     }
