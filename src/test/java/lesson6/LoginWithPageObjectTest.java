@@ -4,10 +4,10 @@ import lesson6.pages.CreateExpenseRequestPage;
 import lesson6.pages.ExpenseRequestsPage;
 import lesson6.pages.ExpensesSubMenu;
 import lesson6.pages.LoginPage;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import static lesson6.Configuration.BASE_URL;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -15,7 +15,7 @@ import static ru.yandex.qatools.htmlelements.matchers.WebElementMatchers.isDispl
 
 public class LoginWithPageObjectTest extends BaseTest{
 
-    @BeforeEach
+    @BeforeTest
     public void goToPage() {
         driver.get(BASE_URL);
     }

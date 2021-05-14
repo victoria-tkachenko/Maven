@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 1, Errors: 0, Skipped: 15, Time elapsed: 5.174 s <<< FAILURE! - in TestSuite
+goToPage(lesson6.LoginWithPageObjectTest)  Time elapsed: 4.755 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at lesson6.LoginWithPageObjectTest.goToPage(LoginWithPageObjectTest.java:20)
+

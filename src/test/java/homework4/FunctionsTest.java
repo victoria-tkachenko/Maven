@@ -1,15 +1,18 @@
 package homework4;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.assertj.core.api.Assertions;
+import org.testng.annotations.Test;
 
 public class FunctionsTest {
 
     Functions functions = new Functions();
     @Test
-    @DisplayName("Проверить функцию isNumberPositive положительным числом")
+//    @DisplayName("Проверить функцию isNumberPositive положительным числом") была такая аннотация в jupiter
+//    void testIsNumberPositive() {
+//        Assertions.assertTrue(functions.isNumberPositive(2));
+//    } Assertions в jupiter
+
     void testIsNumberPositive() {
-        Assertions.assertTrue(functions.isNumberPositive(2));
+        Assertions.assertThat(functions.isNumberPositive(2));
     }
 }

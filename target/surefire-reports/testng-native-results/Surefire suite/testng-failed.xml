@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="homework4.FunctionsTest">
+        <methods>
+          <include name="testIsNumberPositive"/>
+        </methods>
+      </class> <!-- homework4.FunctionsTest -->
+      <class name="lesson6.LoginWithPageObjectTest">
+        <methods>
+          <include name="createNewExpenseRequest"/>
+          <include name="loginTest"/>
+          <include name="loginTestWithFluentPage"/>
+          <include name="tearDown"/>
+          <include name="goToPage"/>
+          <include name="setupBrowser"/>
+          <include name="beforeAll"/>
+        </methods>
+      </class> <!-- lesson6.LoginWithPageObjectTest -->
+      <class name="lesson3.CRMTests">
+        <methods>
+          <include name="createContactPerson"/>
+          <include name="closeBrowser"/>
+          <include name="createBusinessTrip"/>
+          <include name="createOrganization"/>
+          <include name="setup"/>
+          <include name="setupBrowser"/>
+        </methods>
+      </class> <!-- lesson3.CRMTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

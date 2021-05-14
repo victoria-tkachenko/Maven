@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.174" tests="17" errors="0" skipped="15" failures="1">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.1/libexec/conf"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.1/libexec"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/user"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.2+7"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/j5/rbk5f3_s2tnb52nss193gvg40000gn/T/"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/Users/user/example"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/user/example"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/user/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="15.0.2+7"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.1/libexec/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.1/libexec/lib/jansi-native"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="goToPage" classname="lesson6.LoginWithPageObjectTest" time="4.755">
+    <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+	at lesson6.LoginWithPageObjectTest.goToPage(LoginWithPageObjectTest.java:20)
+</failure>
+    <system-out><![CDATA[[Configuration] [WARN] Detected a static method [lesson6.BaseTest.beforeAll()]. Static configuration methods can cause  unexpected behavior.
+[Configuration] [WARN] Detected a static method [lesson6.BaseTest.beforeAll()]. Static configuration methods can cause  unexpected behavior.
+07:45:45.466 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Removing resolution chrome=90 from cache (expired on Thu May 13 20:39:48 MSK 2021)
+07:45:45.491 [main] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-00000001: preparing request execution
+07:45:45.500 [main] DEBUG o.a.h.c.h.protocol.RequestAddCookies - Cookie spec selected: strict
+07:45:45.512 [main] DEBUG o.a.h.c.h.protocol.RequestAuthCache - Auth cache not set in the context
+07:45:45.513 [main] DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-00000001: target auth state: UNCHALLENGED
+07:45:45.515 [main] DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-00000001: proxy auth state: UNCHALLENGED
+07:45:45.517 [main] DEBUG o.a.h.c.h.impl.classic.ConnectExec - ex-00000001: acquiring connection with route {s}->https://raw.githubusercontent.com:443
+07:45:45.523 [main] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-00000001: acquiring endpoint (3 MINUTES)
+07:45:45.541 [main] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-00000001: endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+07:45:45.555 [main] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-00000001: endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+07:45:45.580 [main] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-00000001: acquired ep-00000000
+07:45:45.580 [main] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-00000001: acquired endpoint ep-00000000
+07:45:45.581 [main] DEBUG o.a.h.c.h.impl.classic.ConnectExec - ex-00000001: opening connection {s}->https://raw.githubusercontent.com:443
+07:45:45.582 [main] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-00000000: connecting endpoint (30 SECONDS)
+07:45:45.582 [main] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-00000000: connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
+07:45:45.630 [main] DEBUG o.a.h.c.h.i.i.DefaultHttpClientConnectionOperator - http-outgoing-0: connecting to raw.githubusercontent.com/185.199.108.133:443
+07:45:45.630 [main] DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory - Connecting socket to raw.githubusercontent.com/185.199.108.133:443 with timeout 30 SECONDS
+07:45:45.706 [main] DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2]
+07:45:45.706 [main] DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory - Enabled cipher suites: [TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+07:45:45.706 [main] DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory - Starting handshake
+07:45:45.822 [main] DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory - Secure session established
+07:45:45.822 [main] DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.3
+07:45:45.822 [main] DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+07:45:45.822 [main] DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+07:45:45.823 [main] DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+07:45:45.824 [main] DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+07:45:45.825 [main] DEBUG o.a.h.c.h.i.i.DefaultHttpClientConnectionOperator - http-outgoing-0: connection established 192.168.1.14:60165<->185.199.108.133:443
+07:45:45.827 [main] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-00000000: connected http-outgoing-0
+07:45:45.827 [main] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-00000000: endpoint connected
+07:45:45.828 [main] DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-00000001: executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+07:45:45.829 [main] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-00000000: start execution ex-00000001
+07:45:45.829 [main] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-00000000: executing exchange ex-00000001 over http-outgoing-0
+07:45:45.830 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+07:45:45.830 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+07:45:45.830 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> accept-encoding: gzip, deflate, br
+07:45:45.830 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> cache-control: max-age=0
+07:45:45.830 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> connection: keep-alive
+07:45:45.831 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> Host: raw.githubusercontent.com
+07:45:45.831 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
+07:45:45.831 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+07:45:45.831 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+07:45:45.831 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+07:45:45.831 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+07:45:45.831 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+07:45:45.831 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "[\r][\n]"
+07:45:46.021 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07:45:46.022 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+07:45:46.022 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Content-Length: 709[\r][\n]"
+07:45:46.022 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+07:45:46.022 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+07:45:46.022 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+07:45:46.022 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "ETag: W/"176e34c141316893b4c57116358e915db99135774a91bd005078cf51d6a0a21d"[\r][\n]"
+07:45:46.022 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+07:45:46.022 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+07:45:46.022 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+07:45:46.022 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+07:45:46.023 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-GitHub-Request-Id: A6C8:EDC0:218A0A3:234A9D1:609CBAFD[\r][\n]"
+07:45:46.023 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+07:45:46.023 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+07:45:46.024 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Date: Fri, 14 May 2021 04:45:46 GMT[\r][\n]"
+07:45:46.024 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+07:45:46.024 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Served-By: cache-hhn4031-HHN[\r][\n]"
+07:45:46.024 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+07:45:46.024 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+07:45:46.024 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Timer: S1620967546.855301,VS0,VE150[\r][\n]"
+07:45:46.024 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+07:45:46.024 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+07:45:46.024 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Fastly-Request-ID: 6f7df224062cc30b745622b0fc11986b72eed15c[\r][\n]"
+07:45:46.024 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Expires: Fri, 14 May 2021 04:50:46 GMT[\r][\n]"
+07:45:46.024 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Source-Age: 0[\r][\n]"
+07:45:46.024 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "[\r][\n]"
+07:45:46.030 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+07:45:46.030 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Connection: keep-alive
+07:45:46.030 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Content-Length: 709
+07:45:46.031 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Cache-Control: max-age=300
+07:45:46.031 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+07:45:46.031 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+07:45:46.031 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << ETag: W/"176e34c141316893b4c57116358e915db99135774a91bd005078cf51d6a0a21d"
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Content-Type-Options: nosniff
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Frame-Options: deny
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-GitHub-Request-Id: A6C8:EDC0:218A0A3:234A9D1:609CBAFD
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Content-Encoding: gzip
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Accept-Ranges: bytes
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Date: Fri, 14 May 2021 04:45:46 GMT
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Via: 1.1 varnish
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Served-By: cache-hhn4031-HHN
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Cache: HIT
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Cache-Hits: 1
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Timer: S1620967546.855301,VS0,VE150
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Vary: Authorization,Accept-Encoding
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Access-Control-Allow-Origin: *
+07:45:46.032 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Fastly-Request-ID: 6f7df224062cc30b745622b0fc11986b72eed15c
+07:45:46.033 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Expires: Fri, 14 May 2021 04:50:46 GMT
+07:45:46.033 [main] DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Source-Age: 0
+07:45:46.039 [main] DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-00000001: connection can be kept alive for 3 MINUTES
+07:45:46.057 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]V]o[0xffffffda]0[0x14]}[0xffffffe7]W\QUj%[0x2][[0xffffffa9][0xffffffa6]i[0x12][0xf]4[0xffffffa3][0xffffffdd]4[0x10][0xc][0xffffffda]n[0xffffff93][0xfffffffc][0xffffffe2]&7[0xffffffc1]R[0x12]#;@[0xffffffbb]_?[0xffffffdb][0xfffffff9][0x18][0x9][0xffffffc9]`[\r]}[0xffffff8b][0xffffffed][0xffffffeb]s[0xffffff8e][0xffffffef]=[0xffffff8e][0xffffffef][0x19][0xffffffd8]<[0xc]i[0xffffffe4]JpiL[0xffffff9f][0xffffffa8][0xffffffc4][0xffffffd6][0x19][0xffffffdc]/[0xffffff99][0x4][0xffffff8f][0x5][0x8][0xe][0xffffff8f]b[0xffffffca]"[0x9][0xfffffff1]R[0xf][0xffffffd2][0xffffffd0][0xffffff98][0xffffffc3][0x13][0x2]>[0xffffffa3][0xffffffb3][0xffffff8e][0xffffffd1][0x5][0x16][0xffffff99]e[0xffffffb9][0xffffffc4] [0xffffffd0][0x3].\[0x14]:[0xffffffc8][0xffffffc5][0x18][0xffffff9d][0xffffffd8],nPH[0xffffffc6][0xffffffd5][0xffffff9a][0x7][0xffffffa8][0xffffffbe]}[0xffffff81][0x18][0xffffffc1][0xffffff93][0xffffffe0][[0xffffffa9][0x16][0x14][0xffffffe5][0xffffff85][0xffffffbd][0x14]<[0xffffffc4][0xe][0xffffffdc]2[0xffffff81][0x1e][0x7f][0xffffffee][0xffffffc0]t[0xffffff85][0xffffff82]v`[0xffffffe4][0xfffffffa]j[0xffffffd6][0xffffffac][0xffffffb2]ux[0xffffffa9][0xfffffff1]][0xffffffe6]y(0[0xffffff8a][0xffffff81][0xffffffeb][0xffffff98][0xffffff98]E>[0xffffffc8][0x17][0x19]c([0xffffffe1][0xffffffe2][0x7][0xffffff8b]\[0xffffff85][0xffffffda][0xffffff81]1[0xffffff8b][0xffffffd6][\n]"
+07:45:46.057 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "fB[0x1d][0xffffff98]..[[0xffffff8a]#[0xffffffa1]h[0xffffffa5][0xffffffc7][0xffffffe8]:f[0xffffffd8][0xffffffdd]&[0x1b][0xffffffba][0xffffffef][0xffffffde][0xf][0xffffff9c][0xffffffd0][0xffffffed][0xffffffaa]SA[0xffffffcf][0xffffff86]m[0xffffffc8][0x1c][0xffffff93][0x12][0xffffff93][0xffffff86][0xffffffed]R[0xfffffff1]ADC[0x1c][0xffffffb4][0xffffffcf]g[0xfffffff3][0xffffffe9][0xffffffdd]|8[0xffffffb9][0xfffffffd]:[0x1e]-.~~[0xfffffffc]p[0xfffffff9][0xffffff89][0xc][0x8]9'[0xffffffe4][0xffffff8e]s?@B[0x12][0x1e]B[0xffffff86][0xffffffab]U[0xffffffc0][0x1c][0xffffffa5][0xffffff8f]G[0xffffff84][0xffffffa4]l[\n]"
+07:45:46.057 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "[0xffffffbe][\r]>[0xffffffc6][0xfffffff0][0xffffff98]&[0xffffffa4][0xffffffb7][0xffffffa1][0xffffffc1][0xffffffba]^[0xffffffd4][0xffffffd5][0xffffff91][0xffffffa2][0xffffffc6]S{8[0x1e][0xffffffce]f[0xffffff9f][0xffffff87][0xfffffff7][0xffffffc3][0xffffffb7][0xffffffd4][0xffffffd3][0x7f]E[0xffffff92][0xffffffde]R[0xffffffcf][0xfffffff5]`>[0xffffffba][0xffffff83][0xffffffef][0xf][0xffffffa3][0xfffffff9]/[0xfffffff8][0xfffffff2][0xffffffcd]~ [0xb][0xffffffee][0xffffffc5][*0cK[0xffffffc9]n[0xffffffc6]7H[0x1d][0xffffff83][0xffffff97]y[0xffffffb1]U[0x6][\r][0xffffffb4]c[0xffffffb4][0xf]|[0xffffffb3][0xffffffd5]J[0xffffffa6][0xffffffc1][0xffffffb2][0xffffffea]6[0xffffff84][0xffffffd4][0xffffffd1][0xffffffe1][0xffffffbd][0xffffff9d][0xffffff83][0xffffffc8]^[0xffffffc2][0xffffff9b][0xffffff9a][0xffffffad]KW[0xffffffab][0xffffff9e][0xffffffad].[0xffffff91]r[0xffffffab][0xffffffec])/N[0x17][0xffffffc5][0xffffff80]]te[0xffffffd1][0xffffffd4][0xfffffffd]9[0xffffff91][0xffffff97][0xffffff8c][0xffffff9b][0xffffff99]4[0xffffffcb][0xffffffff][0xffffff84][0xffffffff]fA@3[0x12]B2[0xfffffff4]CI[0xffffffdf]Sq[0xffffffac]+k[0xffffffaf][0xffffffca][0xffffffe9][0xffffffa4][0xfffffff4]w[0xc][0xffffffd0].: %)[0xffffff93][0xffffffb5][0xffffffb5][0x7][0xffffffec][0xffffffb5][0xffffffd0][0x7f][0xffffff90][0xffffffc7]re3[0xfffffffc][0xffffffdc][0xb][0xffffffe9][0x4]X[0xffffff9b][0xfffffffd][0xffffffa0][0xffffffca][0xfffffffa][0xffffffa7],U[0xffffff95][0xffffffdf][0xffffffc5]R[0xffffffc5][0xffffffd6][0xffffffbf][0xffffffb6][0x1c][0x13][0xffffffd5][0xffffffe0][0xffffff84][0xffffffff][0xffffffa2][0x9]s[0x4][0xffffff97]*[0x13][0xffffff84]h[0xffffff9a][0xffffffd2]e[0xb][0xffffffa5][0xffffffa1];[0xffffff94][0xffffffec][0xffffffa2][0xffffffa6][0xffffffd7][0x14][0xfffffffd][\r][0xffffffe5][0xfffffff4]ko[0xfffffffe]_2[0xffffffc3][0xfffffff5][0xffffffcf][0xffffffab]o0[0xfffffff3]b[0xffffff87][0xffffffd9]NK[0xffffffcf]W[0xffffffdd]|[0x13]_Y[0xfffffff7][0xffffff9c][0xffffffd5][0xffffffd4][0xffffffb5][0xffffffaa][0xfffffffc][0xffffffc5][0x8](\|[0xfffffff3][0xffffffda][0xffffffe5],[0xffffffe6]][0xfffffffb][0x7f]7T=[0x2]3[0xffffffc1]}ACI[0xffffff88][0xffffffa1] $[0xffffffa0][0xffffffeb][0xffffffc8]Q[0xffffffbb][0xe][0xffffffa6][0xffffffbb]$[0xffffffa2]I[0xfffffff9]O&[0xffffffe2][0xffffffd8][0xffffffe7][0xffffffa7]*[0x13][\r][0xffffffa9][0xffffffaf][0x1b][0xffffff9c][0xffffffff]X[0xffffffea][0x12]w[0xffffffee]K3[0xffffffac][0xffffffb2]c[0x12]W[0xffffffe9]G[0xffffffc3]Ye[0xffffffc3]i[0x19],k[0xffffff8d]T[0x7f]U|[0xffffffe1][0xffffffd4][0xffffffc4]iL[0xffffff98][0xffffffc1]7x[0xfffffff3][0xb]Z[0x1a][0xffffffbf]?[0xffffffa7][0x16][0xffffffd4][0xffffffa4]-:[0xffffffb5][0xffffff96][0xfffffffa][0xffffff96](g:[0xffffffdc][\r]i[0xffffffc4][0xffffffdc]~[0xffffffd9][0xffffff8c][0xffffff95]6[0xffffffec];[0xffffffe6][0xffffffa9][0xffffffdb]t[0xffffff95]o[0xffffffaa][0xffffffed][0xffffff9f]tt[0xffffffa5]s3[0xffffff99]U[0xffffffe6][0xffffffb5][0xfffffff7]Q[0xffffffff][0x0][0xffffff84][0xffffffc0][0x11][0xffffffe5][0xffffffc4][0xc][0x0][0x0]"
+07:45:46.061 [main] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-00000000: releasing valid endpoint
+07:45:46.061 [main] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-00000000: releasing endpoint
+07:45:46.062 [main] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-00000000: connection http-outgoing-0 can be kept alive for 3 MINUTES
+07:45:46.063 [main] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-00000000: connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+07:45:46.063 [main] DEBUG i.g.b.wdm.versions.VersionDetector - Detecting chrome version using online commands.properties
+07:45:46.066 [main] DEBUG i.g.bonigarcia.wdm.versions.Shell - Running command on the shell: [/Applications/Google Chrome.app/Contents/MacOS/Google Chrome, --version]
+07:45:46.117 [main] DEBUG i.g.bonigarcia.wdm.versions.Shell - Result: Google Chrome 90.0.4430.212
+07:45:46.119 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome90=90.0.4430.24 in cache (valid until 08:09:19 14/05/2021 MSK)
+07:45:46.119 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (resolved driver for Chrome 90)
+07:45:46.121 [main] DEBUG i.g.b.wdm.cache.ResolutionCache - Storing resolution chrome=90 in cache (valid until 08:45:46 14/05/2021 MSK)
+07:45:46.144 [main] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 90.0.4430.24 found in cache
+07:45:46.145 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/user/.cache/selenium/chromedriver/mac64/90.0.4430.24/chromedriver
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 47217
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 14, 2021 7:45:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="lesson3.CRMTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setupBrowser" classname="lesson3.CRMTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setupBrowser" classname="lesson3.CRMTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setupBrowser" classname="lesson3.CRMTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="createBusinessTrip" classname="lesson3.CRMTests" time="0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="closeBrowser" classname="lesson3.CRMTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="closeBrowser" classname="lesson3.CRMTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="closeBrowser" classname="lesson3.CRMTests" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="createContactPerson" classname="lesson3.CRMTests" time="0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="createOrganization" classname="lesson3.CRMTests" time="0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="testIsNumberPositive" classname="homework4.FunctionsTest" time="0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="createNewExpenseRequest" classname="lesson6.LoginWithPageObjectTest" time="0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="loginTest" classname="lesson6.LoginWithPageObjectTest" time="0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="loginTestWithFluentPage" classname="lesson6.LoginWithPageObjectTest" time="0">
+    <skipped message="Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null"/>
+  </testcase>
+  <testcase name="tearDown" classname="lesson6.BaseTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="shouldAnswerWithTrue on shouldAnswerWithTrue(com.geekbrains.AppTest)" classname="com.geekbrains.AppTest" time="0.001"/>
+</testsuite>

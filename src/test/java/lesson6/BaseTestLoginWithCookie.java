@@ -36,7 +36,7 @@ public class BaseTestLoginWithCookie {
     public void loginWithCookie() {
         Cookie sessionCookie = driver.manage().getCookieNamed("BAPID");
         driver.manage().deleteCookie(sessionCookie);
-        Cookie cookie = new Cookie("BAPID", "c6f93379c377fb5eecf6f3262e5929ed");
+        Cookie cookie = new Cookie("BAPID", "49d10fe308efd43828cb1352cf30918f");
         driver.manage().addCookie(cookie);
         driver.navigate().refresh();
     }

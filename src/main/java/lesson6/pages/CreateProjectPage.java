@@ -65,7 +65,6 @@ public class CreateProjectPage extends BaseView{
 
     public CreateProjectPage selectProjectManager (String projectManager) throws InterruptedException {
         new Select(projectManagerSelect).selectByVisibleText(projectManager);
-        Thread.sleep(7000);
         return this;
     }
 
