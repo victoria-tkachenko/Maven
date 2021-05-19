@@ -1,0 +1,108 @@
+{
+  "uid" : "996351523b74054b",
+  "name" : "Создание контактного лица в CRM",
+  "fullName" : "lesson6.CRMTestsWithPageObject.createContactPerson",
+  "historyId" : "9f7573fdab07366a40d74bd6e0b476a1",
+  "time" : {
+    "start" : 1620967780114,
+    "stop" : 1620967792222,
+    "duration" : 12108
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setupBrowser",
+    "time" : {
+      "start" : 1620967771593,
+      "stop" : 1620967779928,
+      "duration" : 8335
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1620967771002,
+      "stop" : 1620967771555,
+      "duration" : 553
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1620967792231,
+      "stop" : 1620967792330,
+      "duration" : 99
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "lesson6.CRMTestsWithPageObject"
+  }, {
+    "name" : "testClass",
+    "value" : "lesson6.CRMTestsWithPageObject"
+  }, {
+    "name" : "testMethod",
+    "value" : "createContactPerson"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "example"
+  }, {
+    "name" : "subSuite",
+    "value" : "lesson6.CRMTestsWithPageObject"
+  }, {
+    "name" : "host",
+    "value" : "iMac-User"
+  }, {
+    "name" : "thread",
+    "value" : "26040@iMac-User.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "996351523b74054b.json",
+  "parameterValues" : [ ]
+}

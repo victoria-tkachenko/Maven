@@ -1,6 +1,7 @@
 package lesson3;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Feature;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+@Feature("Создать новый проект")
 public class CRMCreateProject {
 
     private static WebDriver driver;

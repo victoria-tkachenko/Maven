@@ -1,14 +1,18 @@
 package homework4;
 
-import org.junit.Test;
+
+import io.qameta.allure.Feature;
+import io.qameta.allure.Step;
+import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType;
-//import static org.junit.jupiter.api.Assumptions.*;
-//import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.*;
+import static org.junit.jupiter.api.Assertions.*;
 
+@Feature("Тестирование вычисления площади треугольника")
 public class FunctionCalculateTriangleSquareTest {
 
     FunctionCalculateTriangleSquare functionCalculateTriangleSquare = new FunctionCalculateTriangleSquare();
@@ -16,6 +20,7 @@ public class FunctionCalculateTriangleSquareTest {
 
 
     @Test
+    @Step("Тест позитивный с равными сторонами")
     void testIsTrianglePositive() throws NotTriangleException {
         logger.debug("Позитивная проверка верными значениями");
         assertThat(functionCalculateTriangleSquare.calculateTriangleSquare(2,2,2)).isNotNegative();

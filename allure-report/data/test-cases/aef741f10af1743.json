@@ -1,0 +1,84 @@
+{
+  "uid" : "aef741f10af1743",
+  "name" : "createBusinessTrip()",
+  "fullName" : "lesson3.CRMTests.createBusinessTrip",
+  "historyId" : "92c6781d9338f51cfded71c31dfd60f2",
+  "time" : {
+    "start" : 1621010724971,
+    "stop" : 1621010737859,
+    "duration" : 12888
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "iMac-User"
+  }, {
+    "name" : "thread",
+    "value" : "33443@iMac-User.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "lesson3.CRMTests"
+  }, {
+    "name" : "testClass",
+    "value" : "lesson3.CRMTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "createBusinessTrip"
+  }, {
+    "name" : "suite",
+    "value" : "lesson3.CRMTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c94d7cd8b229ba07",
+      "status" : "broken",
+      "statusDetails" : "element not interactable: Element is not currently visible and may not be manipulated\n  (Session info: chrome=90.0.4430.212)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'iMac-User', ip: '192.168.1.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/j5/rbk5f3_s2tn...}, goog:chromeOptions: {debuggerAddress: localhost:54659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a1d9bf224fae8ac8e65f07c1b61e177d",
+      "time" : {
+        "start" : 1621010619335,
+        "stop" : 1621010627591,
+        "duration" : 8256
+      }
+    }, {
+      "uid" : "6f66979a8ae13d4a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.name: crm_business_trip[businessUnit] (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1621010463912,
+        "stop" : 1621010480834,
+        "duration" : 16922
+      }
+    }, {
+      "uid" : "5a3e0807807b5a0a",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.name: crm_business_trip[businessUnit] (tried for 10 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1621010332641,
+        "stop" : 1621010349373,
+        "duration" : 16732
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aef741f10af1743.json",
+  "parameterValues" : [ ]
+}

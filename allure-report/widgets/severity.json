@@ -1,0 +1,221 @@
+[ {
+  "uid" : "62c0b7c71a53f468",
+  "name" : "Создание контактного лица в CRM",
+  "time" : {
+    "start" : 1621006297964,
+    "stop" : 1621006297965,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "71f88a9ff07eef04",
+  "name" : "goToPage",
+  "time" : {
+    "start" : 1621007190287,
+    "stop" : 1621007190289,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "33ab6083987ea3b7",
+  "name" : "loginTestWithFluentPage",
+  "time" : {
+    "start" : 1621007190413,
+    "stop" : 1621007190414,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "66577c69f8e870d2",
+  "name" : "testIsTrianglePositive()",
+  "time" : {
+    "start" : 1621010757685,
+    "stop" : 1621010757701,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4759ae15613069d2",
+  "name" : "checkExceptionWhenNotTriangleNegativeSide()",
+  "time" : {
+    "start" : 1621010757675,
+    "stop" : 1621010757676,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8ba4e42b1c6122f",
+  "name" : "testIsNumberPositive",
+  "time" : {
+    "start" : 1621007190392,
+    "stop" : 1621007190393,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2a2df7e4b8b3d93c",
+  "name" : "checkExceptionWhenNotTriangleTwoSidesLess()",
+  "time" : {
+    "start" : 1621010757467,
+    "stop" : 1621010757672,
+    "duration" : 205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6eb3b6b0f3af14be",
+  "name" : "CRMTests",
+  "time" : {
+    "start" : 1621009802852,
+    "stop" : 1621009802853,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8b6a4271f82a04cf",
+  "name" : "createNewProjectTest()",
+  "time" : {
+    "start" : 1621010687717,
+    "stop" : 1621010702784,
+    "duration" : 15067
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "aef741f10af1743",
+  "name" : "createBusinessTrip()",
+  "time" : {
+    "start" : 1621010724971,
+    "stop" : 1621010737859,
+    "duration" : 12888
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abc725403278e8db",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1621007190401,
+    "stop" : 1621007190407,
+    "duration" : 6
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "54ef60f31a3130d7",
+  "name" : "LoginWithPageObjectTest",
+  "time" : {
+    "start" : 1621010757827,
+    "stop" : 1621010757828,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d9beaa6e298a9ac6",
+  "name" : "testIsNumberPositive()",
+  "time" : {
+    "start" : 1621010757737,
+    "stop" : 1621010757739,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efb0d878d28c4d53",
+  "name" : "Создание нового проекта в CRM",
+  "time" : {
+    "start" : 1620968871915,
+    "stop" : 1620968875608,
+    "duration" : 3693
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "de98c5d350b4320f",
+  "name" : "Создание командировки",
+  "time" : {
+    "start" : 1621006297956,
+    "stop" : 1621006297957,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "60b6a9ac87f8511d",
+  "name" : "createContactPerson()",
+  "time" : {
+    "start" : 1621010737875,
+    "stop" : 1621010757447,
+    "duration" : 19572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "311340553fbd1104",
+  "name" : "Создание организации",
+  "time" : {
+    "start" : 1621006297971,
+    "stop" : 1621006297971,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "bfc01360cc9a8072",
+  "name" : "Создание контактного лица в CRM",
+  "time" : {
+    "start" : 1620968853586,
+    "stop" : 1620968866111,
+    "duration" : 12525
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95b2e72296d37e33",
+  "name" : "createNewExpenseRequest",
+  "time" : {
+    "start" : 1621007190397,
+    "stop" : 1621007190397,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1f92339f063a5fcf",
+  "name" : "Создание нового проекта в CRM",
+  "time" : {
+    "start" : 1621006295890,
+    "stop" : 1621006295892,
+    "duration" : 2
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "5e904d61229c1c62",
+  "name" : "createOrganization()",
+  "time" : {
+    "start" : 1621010702931,
+    "stop" : 1621010724951,
+    "duration" : 22020
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f453e84abf486a35",
+  "name" : "checkExceptionWhenNotTriangleZero()",
+  "time" : {
+    "start" : 1621010757680,
+    "stop" : 1621010757681,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

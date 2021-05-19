@@ -1,0 +1,113 @@
+{
+  "uid" : "f453e84abf486a35",
+  "name" : "checkExceptionWhenNotTriangleZero()",
+  "fullName" : "homework4.FunctionCalculateTriangleSquareTest.checkExceptionWhenNotTriangleZero",
+  "historyId" : "c6f66421b079f0a6c9b49470ddba1d91",
+  "time" : {
+    "start" : 1621010757680,
+    "stop" : 1621010757681,
+    "duration" : 1
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "iMac-User"
+  }, {
+    "name" : "thread",
+    "value" : "33443@iMac-User.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "homework4.FunctionCalculateTriangleSquareTest"
+  }, {
+    "name" : "testClass",
+    "value" : "homework4.FunctionCalculateTriangleSquareTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkExceptionWhenNotTriangleZero"
+  }, {
+    "name" : "suite",
+    "value" : "homework4.FunctionCalculateTriangleSquareTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "34bba409c3f6daba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621010366305,
+        "stop" : 1621010366305,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "27c7e9d525c541",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621009803174,
+        "stop" : 1621009803175,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "35c24bb4e17aec40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621009365687,
+        "stop" : 1621009365688,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e45f38f33d0ecc31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621009276414,
+        "stop" : 1621009276414,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9e04fd960b400ec9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621009228790,
+        "stop" : 1621009228791,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "46a743a98d254b0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621009193004,
+        "stop" : 1621009193006,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "56f21384fc795926",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621009084226,
+        "stop" : 1621009084227,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f453e84abf486a35.json",
+  "parameterValues" : [ ]
+}

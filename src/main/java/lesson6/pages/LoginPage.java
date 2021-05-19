@@ -1,5 +1,6 @@
 package lesson6.pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,11 +30,13 @@ public class LoginPage extends BaseView {
         super(driver);
     }
 
+    @Step("Заполнить поле логин")
     public LoginPage fillInputLogin(String login) {
         inputLogin.sendKeys(login);
         return this;
     }
 
+    @Step("Заполнить поле логин")
     public LoginPage fillInputPassword(String password) {
         inputPassword.sendKeys(password);
         return this;

@@ -1,0 +1,55 @@
+{
+  "uid" : "f2ed1df5f8012a52",
+  "name" : "testIsTrianglePositive()",
+  "fullName" : "homework4.FunctionCalculateTriangleSquareTest.testIsTrianglePositive",
+  "historyId" : "b6f94479070959e4e9e120d4fb1bd211",
+  "time" : {
+    "start" : 1621009365691,
+    "stop" : 1621009365698,
+    "duration" : 7
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "iMac-User.local"
+  }, {
+    "name" : "thread",
+    "value" : "32731@iMac-User.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "homework4.FunctionCalculateTriangleSquareTest"
+  }, {
+    "name" : "testClass",
+    "value" : "homework4.FunctionCalculateTriangleSquareTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testIsTrianglePositive"
+  }, {
+    "name" : "suite",
+    "value" : "homework4.FunctionCalculateTriangleSquareTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f2ed1df5f8012a52.json",
+  "parameterValues" : [ ]
+}

@@ -1,5 +1,6 @@
 package lesson6.pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,12 +20,14 @@ public class MainPage extends BaseView {
 
     public By geekBrainsHomeButtonLocator = By.xpath("//a[@title='Geekbrains']");
 
+    @Step("Открыть страницу Мои проекты ")
     public void openMyProjectsPage(){
         driver.get("https://crm.geekbrains.space/project/my");
         webDriverWait.until(
                 ExpectedConditions.presenceOfElementLocated(new MyProjectsPage(driver).createProjectLocator));
     }
 
+    @Step("Открыть страницу Все контактные лица")
     public void openAllContactPersonsPage(){
         driver.get("https://crm.geekbrains.space/contact/");
         webDriverWait.until(

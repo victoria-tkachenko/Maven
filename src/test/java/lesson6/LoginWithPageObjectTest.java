@@ -1,21 +1,27 @@
 package lesson6;
 
+import io.qameta.allure.Feature;
 import lesson6.pages.CreateExpenseRequestPage;
 import lesson6.pages.ExpenseRequestsPage;
 import lesson6.pages.ExpensesSubMenu;
 import lesson6.pages.LoginPage;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+//import org.testng.annotations.BeforeTest;
+
 
 import static lesson6.Configuration.BASE_URL;
 import static org.hamcrest.MatcherAssert.assertThat;
-import static ru.yandex.qatools.htmlelements.matchers.WebElementMatchers.isDisplayed;
+//import static ru.yandex.qatools.htmlelements.matchers.WebElementMatchers.isDisplayed;
 
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+@Feature("Тестирование создания заявки на расход")
 public class LoginWithPageObjectTest extends BaseTest{
 
-    @BeforeTest
+    @BeforeAll
     public void goToPage() {
         driver.get(BASE_URL);
     }
@@ -55,6 +61,6 @@ public class LoginWithPageObjectTest extends BaseTest{
                 ExpectedConditions.presenceOfElementLocated(
                         By.xpath(new CreateExpenseRequestPage(driver).requestSuccessLocator)));
 
-        assertThat(new CreateExpenseRequestPage(driver).requestSuccess, isDisplayed());
+//        assertThat(new CreateExpenseRequestPage(driver).requestSuccess, isDisplayed());
     }
 }

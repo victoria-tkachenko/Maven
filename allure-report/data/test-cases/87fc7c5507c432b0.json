@@ -1,0 +1,60 @@
+{
+  "uid" : "87fc7c5507c432b0",
+  "name" : "testIsNumberPositive",
+  "fullName" : "homework4.FunctionsTest.testIsNumberPositive",
+  "historyId" : "1770b0df60f840f0fc32f9702535a934",
+  "time" : {
+    "start" : 1620968794318,
+    "stop" : 1620968794587,
+    "duration" : 269
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "homework4.FunctionsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "homework4.FunctionsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testIsNumberPositive"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "example"
+  }, {
+    "name" : "subSuite",
+    "value" : "homework4.FunctionsTest"
+  }, {
+    "name" : "host",
+    "value" : "iMac-User"
+  }, {
+    "name" : "thread",
+    "value" : "26330@iMac-User.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87fc7c5507c432b0.json",
+  "parameterValues" : [ ]
+}

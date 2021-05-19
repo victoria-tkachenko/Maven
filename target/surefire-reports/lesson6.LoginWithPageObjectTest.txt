@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: lesson6.LoginWithPageObjectTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.027 s <<< FAILURE! - in lesson6.LoginWithPageObjectTest
+lesson6.LoginWithPageObjectTest  Time elapsed: 0.027 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.support.events.EventFiringWebDriver.get(String)" because "this.driver" is null
+	at lesson6.LoginWithPageObjectTest.goToPage(LoginWithPageObjectTest.java:26)
+

@@ -1,0 +1,111 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element not interactable\n  (Session info: chrome=90.0.4430.212)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'iMac-User', ip: '192.168.1.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/j5/rbk5f3_s2tn...}, goog:chromeOptions: {debuggerAddress: localhost:60577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 55572d894c1ffc490b26e624214e16cb",
+      "children" : [ {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "efb0d878d28c4d53",
+        "parentUid" : "fb992738b4203bdcc2d30a7f0ac2633d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620968871915,
+          "stop" : 1620968875608,
+          "duration" : 3693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb992738b4203bdcc2d30a7f0ac2633d"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "goToPage",
+        "uid" : "71f88a9ff07eef04",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621007190287,
+          "stop" : 1621007190289,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "@BeforeAll method 'void lesson3.CRMTests.initialSetup()' must be static unless the test class is annotated with @TestInstance(Lifecycle.PER_CLASS).",
+      "children" : [ {
+        "name" : "CRMTests",
+        "uid" : "6eb3b6b0f3af14be",
+        "parentUid" : "739f48707dfb160023e5b2f3918134fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621009802852,
+          "stop" : 1621009802853,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "739f48707dfb160023e5b2f3918134fa"
+    }, {
+      "name" : "element click intercepted: Element <button type=\"submit\" class=\"btn btn-success action-button\" data-action=\"{&quot;route&quot;:&quot;crm_project_index&quot;}\">...</button> is not clickable at point (855, 113). Other element would receive the click: <div id=\"select2-drop-mask\" class=\"select2-drop-mask\" style=\"width: 1200px; height: 813px;\"></div>\n  (Session info: chrome=90.0.4430.212)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'iMac-User', ip: '192.168.1.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/j5/rbk5f3_s2tn...}, goog:chromeOptions: {debuggerAddress: localhost:54697}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b96af9a0bd6f3dbeb1d36fc9e395ddd0",
+      "children" : [ {
+        "name" : "createNewProjectTest()",
+        "uid" : "8b6a4271f82a04cf",
+        "parentUid" : "d7f2fc08c4fd1282b9395aebc4b741ff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010687717,
+          "stop" : 1621010702784,
+          "duration" : 15067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d7f2fc08c4fd1282b9395aebc4b741ff"
+    }, {
+      "name" : "Expected condition failed: waiting for presence of element located by: By.xpath: //*[text()='Организация сохранена'] (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "createOrganization()",
+        "uid" : "5e904d61229c1c62",
+        "parentUid" : "fa2cd4c95da4da59cb12598ca80b508c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010702931,
+          "stop" : 1621010724951,
+          "duration" : 22020
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fa2cd4c95da4da59cb12598ca80b508c"
+    }, {
+      "name" : "Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because \"this.driver\" is null",
+      "children" : [ {
+        "name" : "LoginWithPageObjectTest",
+        "uid" : "54ef60f31a3130d7",
+        "parentUid" : "ec76eb1acb09a028ac7c56172dc015f6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010757827,
+          "stop" : 1621010757828,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec76eb1acb09a028ac7c56172dc015f6"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

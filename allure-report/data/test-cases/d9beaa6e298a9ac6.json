@@ -1,0 +1,113 @@
+{
+  "uid" : "d9beaa6e298a9ac6",
+  "name" : "testIsNumberPositive()",
+  "fullName" : "homework4.FunctionsTest.testIsNumberPositive",
+  "historyId" : "b2ae5a9452eeb609d43f4f0350668f6d",
+  "time" : {
+    "start" : 1621010757737,
+    "stop" : 1621010757739,
+    "duration" : 2
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "iMac-User"
+  }, {
+    "name" : "thread",
+    "value" : "33443@iMac-User.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "homework4.FunctionsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "homework4.FunctionsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testIsNumberPositive"
+  }, {
+    "name" : "suite",
+    "value" : "homework4.FunctionsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d02e67d82d4b1da6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621010366360,
+        "stop" : 1621010366362,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "f4e9b055c76077d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621009803195,
+        "stop" : 1621009803196,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2cb498514f07d159",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621009365706,
+        "stop" : 1621009365708,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "9a91759332fba1bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621009276444,
+        "stop" : 1621009276446,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "c6e61f90b22b45ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621009228819,
+        "stop" : 1621009228820,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "eb48c1f4544c265",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621009193058,
+        "stop" : 1621009193060,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "87268e1813e93b54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621009084249,
+        "stop" : 1621009084255,
+        "duration" : 6
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9beaa6e298a9ac6.json",
+  "parameterValues" : [ ]
+}

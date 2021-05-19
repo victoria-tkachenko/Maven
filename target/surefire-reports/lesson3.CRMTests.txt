@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: lesson3.CRMTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 84.919 s <<< FAILURE! - in lesson3.CRMTests
+lesson3.CRMTests.createNewProjectTest  Time elapsed: 25.898 s  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button type="submit" class="btn btn-success action-button" data-action="{&quot;route&quot;:&quot;crm_project_index&quot;}">...</button> is not clickable at point (855, 113). Other element would receive the click: <div id="select2-drop-mask" class="select2-drop-mask" style="width: 1200px; height: 813px;"></div>
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'iMac-User', ip: '192.168.1.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/j5/rbk5f3_s2tn...}, goog:chromeOptions: {debuggerAddress: localhost:56537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 997a2a3b67bfb41678aa8a7b4611f540
+	at lesson3.CRMTests.createNewProjectTest(CRMTests.java:72)
+
+lesson3.CRMTests.createOrganization  Time elapsed: 25.275 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[text()='Организация сохранена'] (tried for 10 second(s) with 500 milliseconds interval)
+	at lesson3.CRMTests.createOrganization(CRMTests.java:247)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Организация сохранена']"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'iMac-User', ip: '192.168.1.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/j5/rbk5f3_s2tn...}, goog:chromeOptions: {debuggerAddress: localhost:56572}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8655522bd31e1d6e66b770ec55f97043
+*** Element info: {Using=xpath, value=//*[text()='Организация сохранена']}
+	at lesson3.CRMTests.createOrganization(CRMTests.java:247)
+

@@ -1,7 +1,10 @@
 package homework4;
 
 
+import io.qameta.allure.Step;
+
 public class Functions {
+
     public boolean isNumberEven(Integer number) {
         return number % 2 == 0;
     }

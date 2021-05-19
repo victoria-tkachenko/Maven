@@ -1,0 +1,124 @@
+{
+  "uid" : "64ac3d128d1abccf",
+  "name" : "createNewExpenseRequest",
+  "fullName" : "lesson6.LoginWithPageObjectTest.createNewExpenseRequest",
+  "historyId" : "4af9022948bbbe560b3c51a9905f81e0",
+  "time" : {
+    "start" : 1620968818229,
+    "stop" : 1620968831606,
+    "duration" : 13377
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeAll",
+    "time" : {
+      "start" : 1620968813271,
+      "stop" : 1620968813804,
+      "duration" : 533
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setupBrowser",
+    "time" : {
+      "start" : 1620968813805,
+      "stop" : 1620968815794,
+      "duration" : 1989
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "goToPage",
+    "time" : {
+      "start" : 1620968815795,
+      "stop" : 1620968818147,
+      "duration" : 2352
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1620968831741,
+      "stop" : 1620968831841,
+      "duration" : 100
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "lesson6.LoginWithPageObjectTest"
+  }, {
+    "name" : "testClass",
+    "value" : "lesson6.LoginWithPageObjectTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createNewExpenseRequest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "example"
+  }, {
+    "name" : "subSuite",
+    "value" : "lesson6.LoginWithPageObjectTest"
+  }, {
+    "name" : "host",
+    "value" : "iMac-User"
+  }, {
+    "name" : "thread",
+    "value" : "26340@iMac-User.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64ac3d128d1abccf.json",
+  "parameterValues" : [ ]
+}

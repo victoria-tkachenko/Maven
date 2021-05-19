@@ -1,0 +1,3182 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "iMac-User",
+    "children" : [ {
+      "name" : "26587@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "9ede409b8d54336e",
+        "parentUid" : "3f8c7e07934c589bd774030dcd847ba5",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1620969383467,
+          "stop" : 1620969383469,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание организации",
+        "uid" : "f331f5c3cd5c7b19",
+        "parentUid" : "3f8c7e07934c589bd774030dcd847ba5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969386254,
+          "stop" : 1620969386254,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "70f724a65b137107",
+        "parentUid" : "3f8c7e07934c589bd774030dcd847ba5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969386263,
+          "stop" : 1620969386263,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "e5d5fff7c2b26848",
+        "parentUid" : "3f8c7e07934c589bd774030dcd847ba5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969386261,
+          "stop" : 1620969386261,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание командировки",
+        "uid" : "8b167e361684f29b",
+        "parentUid" : "3f8c7e07934c589bd774030dcd847ba5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969386238,
+          "stop" : 1620969386240,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "74d8bc8bc809390e",
+        "parentUid" : "3f8c7e07934c589bd774030dcd847ba5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969386251,
+          "stop" : 1620969386251,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "b6fb64739f687cb4",
+        "parentUid" : "3f8c7e07934c589bd774030dcd847ba5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969386266,
+          "stop" : 1620969386266,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goToPage",
+        "uid" : "12e4da5f72c50fa5",
+        "parentUid" : "3f8c7e07934c589bd774030dcd847ba5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620969386139,
+          "stop" : 1620969386140,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "62c1af7dea7ac3fa",
+        "parentUid" : "3f8c7e07934c589bd774030dcd847ba5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969386268,
+          "stop" : 1620969386268,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f8c7e07934c589bd774030dcd847ba5"
+    }, {
+      "name" : "26903@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "d8cbcf78df683493",
+        "parentUid" : "eeda30eb22ed45ed944c08c8130071da",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970303799,
+          "stop" : 1620970303799,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "db8d91e547dc3a50",
+        "parentUid" : "eeda30eb22ed45ed944c08c8130071da",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1620970300863,
+          "stop" : 1620970300864,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goToPage",
+        "uid" : "932e2e88532ba2fc",
+        "parentUid" : "eeda30eb22ed45ed944c08c8130071da",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620970303695,
+          "stop" : 1620970303696,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "1300c4725bc86753",
+        "parentUid" : "eeda30eb22ed45ed944c08c8130071da",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970303787,
+          "stop" : 1620970303788,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "1b3827b6cf5a9b50",
+        "parentUid" : "eeda30eb22ed45ed944c08c8130071da",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970303793,
+          "stop" : 1620970303793,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание организации",
+        "uid" : "95a29d854e2bb61f",
+        "parentUid" : "eeda30eb22ed45ed944c08c8130071da",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970303770,
+          "stop" : 1620970303783,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "3ecd7ddd76a3e075",
+        "parentUid" : "eeda30eb22ed45ed944c08c8130071da",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970303762,
+          "stop" : 1620970303763,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание командировки",
+        "uid" : "559d86f5075888ba",
+        "parentUid" : "eeda30eb22ed45ed944c08c8130071da",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970303753,
+          "stop" : 1620970303755,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "c76878f487f531be",
+        "parentUid" : "eeda30eb22ed45ed944c08c8130071da",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970303796,
+          "stop" : 1620970303796,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eeda30eb22ed45ed944c08c8130071da"
+    }, {
+      "name" : "27090@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "Создание организации",
+        "uid" : "55a7cab71e84e6e1",
+        "parentUid" : "af7889d49ee30d79c1d0b571f763ee20",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970912719,
+          "stop" : 1620970912719,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goToPage",
+        "uid" : "c85c0e0c5cb4cc1f",
+        "parentUid" : "af7889d49ee30d79c1d0b571f763ee20",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620970912619,
+          "stop" : 1620970912622,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "b78cf38c70d0e4a3",
+        "parentUid" : "af7889d49ee30d79c1d0b571f763ee20",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970912737,
+          "stop" : 1620970912738,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "775cb1e502418cd5",
+        "parentUid" : "af7889d49ee30d79c1d0b571f763ee20",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970912713,
+          "stop" : 1620970912713,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "937dc723a6f11d41",
+        "parentUid" : "af7889d49ee30d79c1d0b571f763ee20",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970912743,
+          "stop" : 1620970912745,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание командировки",
+        "uid" : "acea21b50da06c3d",
+        "parentUid" : "af7889d49ee30d79c1d0b571f763ee20",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970912705,
+          "stop" : 1620970912706,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "431f0c659dcf398a",
+        "parentUid" : "af7889d49ee30d79c1d0b571f763ee20",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970912740,
+          "stop" : 1620970912740,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "5fa08171fee53648",
+        "parentUid" : "af7889d49ee30d79c1d0b571f763ee20",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970912724,
+          "stop" : 1620970912732,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "3cb0c49c6abb5c57",
+        "parentUid" : "af7889d49ee30d79c1d0b571f763ee20",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1620970909978,
+          "stop" : 1620970909980,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af7889d49ee30d79c1d0b571f763ee20"
+    }, {
+      "name" : "26459@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "7f0e16ae76419639",
+        "parentUid" : "c482028645b4251f18e81d172420b505",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1620969001616,
+          "stop" : 1620969001618,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "d55305cfd50f9a65",
+        "parentUid" : "c482028645b4251f18e81d172420b505",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969004804,
+          "stop" : 1620969004804,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goToPage",
+        "uid" : "2ba3fbd8c5ab9502",
+        "parentUid" : "c482028645b4251f18e81d172420b505",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620969004584,
+          "stop" : 1620969004586,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание организации",
+        "uid" : "1c963dcb14dd5fbe",
+        "parentUid" : "c482028645b4251f18e81d172420b505",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969004791,
+          "stop" : 1620969004791,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "bac6d76d71982943",
+        "parentUid" : "c482028645b4251f18e81d172420b505",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969004786,
+          "stop" : 1620969004787,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "bf01051bda634949",
+        "parentUid" : "c482028645b4251f18e81d172420b505",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969004801,
+          "stop" : 1620969004801,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание командировки",
+        "uid" : "d88ab1ccbcca59bc",
+        "parentUid" : "c482028645b4251f18e81d172420b505",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969004778,
+          "stop" : 1620969004779,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "21bc44b0379e0623",
+        "parentUid" : "c482028645b4251f18e81d172420b505",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969004796,
+          "stop" : 1620969004796,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "6d5e98b05c2fa7e0",
+        "parentUid" : "c482028645b4251f18e81d172420b505",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969004794,
+          "stop" : 1620969004794,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c482028645b4251f18e81d172420b505"
+    }, {
+      "name" : "27247@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "223e4f461ce733cd",
+        "parentUid" : "01032261d03c10d0a46e967c3e07001d",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1620971156278,
+          "stop" : 1620971156279,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание организации",
+        "uid" : "94c50d04d304b59e",
+        "parentUid" : "01032261d03c10d0a46e967c3e07001d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971158914,
+          "stop" : 1620971158914,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "891b425ada322ea7",
+        "parentUid" : "01032261d03c10d0a46e967c3e07001d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971158904,
+          "stop" : 1620971158905,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание командировки",
+        "uid" : "ca614692053c853d",
+        "parentUid" : "01032261d03c10d0a46e967c3e07001d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971158895,
+          "stop" : 1620971158897,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "72418071d101640a",
+        "parentUid" : "01032261d03c10d0a46e967c3e07001d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971158921,
+          "stop" : 1620971158922,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "3c54f05466a40324",
+        "parentUid" : "01032261d03c10d0a46e967c3e07001d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971158927,
+          "stop" : 1620971158928,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goToPage",
+        "uid" : "683e7adf582dde4a",
+        "parentUid" : "01032261d03c10d0a46e967c3e07001d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620971158851,
+          "stop" : 1620971158853,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "64eb5ea8c229f64e",
+        "parentUid" : "01032261d03c10d0a46e967c3e07001d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971158917,
+          "stop" : 1620971158917,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "d23553f834a0af1a",
+        "parentUid" : "01032261d03c10d0a46e967c3e07001d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971158919,
+          "stop" : 1620971158919,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "01032261d03c10d0a46e967c3e07001d"
+    }, {
+      "name" : "27189@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "loginTest",
+        "uid" : "c7fc59c678298b2a",
+        "parentUid" : "6043a49cb2fbccc8c7bcb5ec07bd6ea0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971057357,
+          "stop" : 1620971057357,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание организации",
+        "uid" : "a1e193180c6dce83",
+        "parentUid" : "6043a49cb2fbccc8c7bcb5ec07bd6ea0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971057346,
+          "stop" : 1620971057349,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "eeac798cce83f11d",
+        "parentUid" : "6043a49cb2fbccc8c7bcb5ec07bd6ea0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971057354,
+          "stop" : 1620971057355,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "8e33d54ee76fe504",
+        "parentUid" : "6043a49cb2fbccc8c7bcb5ec07bd6ea0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971057341,
+          "stop" : 1620971057341,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goToPage",
+        "uid" : "63874837b7570f3d",
+        "parentUid" : "6043a49cb2fbccc8c7bcb5ec07bd6ea0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620971057261,
+          "stop" : 1620971057262,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание командировки",
+        "uid" : "f5821de137590595",
+        "parentUid" : "6043a49cb2fbccc8c7bcb5ec07bd6ea0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971057334,
+          "stop" : 1620971057335,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "450ce6f4fff54117",
+        "parentUid" : "6043a49cb2fbccc8c7bcb5ec07bd6ea0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971057359,
+          "stop" : 1620971057359,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "8c05b9218747017b",
+        "parentUid" : "6043a49cb2fbccc8c7bcb5ec07bd6ea0",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1620971055018,
+          "stop" : 1620971055021,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "85a6de23ecb3606",
+        "parentUid" : "6043a49cb2fbccc8c7bcb5ec07bd6ea0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971057352,
+          "stop" : 1620971057353,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6043a49cb2fbccc8c7bcb5ec07bd6ea0"
+    }, {
+      "name" : "33443@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "createContactPerson()",
+        "uid" : "60b6a9ac87f8511d",
+        "parentUid" : "b679a3f2544f1141224f309b230b2782",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621010737875,
+          "stop" : 1621010757447,
+          "duration" : 19572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleZero()",
+        "uid" : "f453e84abf486a35",
+        "parentUid" : "b679a3f2544f1141224f309b230b2782",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621010757680,
+          "stop" : 1621010757681,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LoginWithPageObjectTest",
+        "uid" : "54ef60f31a3130d7",
+        "parentUid" : "b679a3f2544f1141224f309b230b2782",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010757827,
+          "stop" : 1621010757828,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createOrganization()",
+        "uid" : "5e904d61229c1c62",
+        "parentUid" : "b679a3f2544f1141224f309b230b2782",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010702931,
+          "stop" : 1621010724951,
+          "duration" : 22020
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewProjectTest()",
+        "uid" : "8b6a4271f82a04cf",
+        "parentUid" : "b679a3f2544f1141224f309b230b2782",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010687717,
+          "stop" : 1621010702784,
+          "duration" : 15067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleTwoSidesLess()",
+        "uid" : "2a2df7e4b8b3d93c",
+        "parentUid" : "b679a3f2544f1141224f309b230b2782",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621010757467,
+          "stop" : 1621010757672,
+          "duration" : 205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsTrianglePositive()",
+        "uid" : "66577c69f8e870d2",
+        "parentUid" : "b679a3f2544f1141224f309b230b2782",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621010757685,
+          "stop" : 1621010757701,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive()",
+        "uid" : "d9beaa6e298a9ac6",
+        "parentUid" : "b679a3f2544f1141224f309b230b2782",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621010757737,
+          "stop" : 1621010757739,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createBusinessTrip()",
+        "uid" : "aef741f10af1743",
+        "parentUid" : "b679a3f2544f1141224f309b230b2782",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621010724971,
+          "stop" : 1621010737859,
+          "duration" : 12888
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleNegativeSide()",
+        "uid" : "4759ae15613069d2",
+        "parentUid" : "b679a3f2544f1141224f309b230b2782",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621010757675,
+          "stop" : 1621010757676,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b679a3f2544f1141224f309b230b2782"
+    }, {
+      "name" : "27029@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "Создание командировки",
+        "uid" : "2370d6701828cba9",
+        "parentUid" : "1b0f747f2c2d481f3230911868f8bb9d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970817740,
+          "stop" : 1620970817742,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "5a1037931ecb19a0",
+        "parentUid" : "1b0f747f2c2d481f3230911868f8bb9d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970817761,
+          "stop" : 1620970817761,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "32a22f1707d0e434",
+        "parentUid" : "1b0f747f2c2d481f3230911868f8bb9d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970817768,
+          "stop" : 1620970817768,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goToPage",
+        "uid" : "b545150dec608918",
+        "parentUid" : "1b0f747f2c2d481f3230911868f8bb9d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620970817537,
+          "stop" : 1620970817539,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "40fa6b10f96468e1",
+        "parentUid" : "1b0f747f2c2d481f3230911868f8bb9d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970817752,
+          "stop" : 1620970817752,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "b7a3df613b89a133",
+        "parentUid" : "1b0f747f2c2d481f3230911868f8bb9d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970817763,
+          "stop" : 1620970817763,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание организации",
+        "uid" : "ef8f0a38f67ccd2a",
+        "parentUid" : "1b0f747f2c2d481f3230911868f8bb9d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970817757,
+          "stop" : 1620970817757,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "fb1c77962e8c567e",
+        "parentUid" : "1b0f747f2c2d481f3230911868f8bb9d",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1620970814933,
+          "stop" : 1620970814935,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "ee55bd1d0be01c28",
+        "parentUid" : "1b0f747f2c2d481f3230911868f8bb9d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620970817766,
+          "stop" : 1620970817766,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b0f747f2c2d481f3230911868f8bb9d"
+    }, {
+      "name" : "26273@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "b6bbb9c5f8fb53d5",
+        "parentUid" : "f95677f20b6a39feb517eef94a226e82",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620968707824,
+          "stop" : 1620968707824,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "acca743ef0278fe9",
+        "parentUid" : "f95677f20b6a39feb517eef94a226e82",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1620968705102,
+          "stop" : 1620968705104,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "b023f68ce1679cd4",
+        "parentUid" : "f95677f20b6a39feb517eef94a226e82",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620968707846,
+          "stop" : 1620968707846,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "1713dee3cca446d8",
+        "parentUid" : "f95677f20b6a39feb517eef94a226e82",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620968707843,
+          "stop" : 1620968707844,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "be6db34bcb98662e",
+        "parentUid" : "f95677f20b6a39feb517eef94a226e82",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620968707834,
+          "stop" : 1620968707834,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание командировки",
+        "uid" : "15d7cb1628716c57",
+        "parentUid" : "f95677f20b6a39feb517eef94a226e82",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620968707794,
+          "stop" : 1620968707795,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "982eb19c5a767ff1",
+        "parentUid" : "f95677f20b6a39feb517eef94a226e82",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620968707839,
+          "stop" : 1620968707840,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание организации",
+        "uid" : "7d127688af6c79cd",
+        "parentUid" : "f95677f20b6a39feb517eef94a226e82",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620968707829,
+          "stop" : 1620968707830,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goToPage",
+        "uid" : "635ad7c3f0808544",
+        "parentUid" : "f95677f20b6a39feb517eef94a226e82",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620968707628,
+          "stop" : 1620968707629,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f95677f20b6a39feb517eef94a226e82"
+    }, {
+      "name" : "26695@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "goToPage",
+        "uid" : "264772e67fff50ec",
+        "parentUid" : "43ad747c848141bdf616319eece6e5c4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620969720907,
+          "stop" : 1620969720908,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "4ae41f14e521cfd7",
+        "parentUid" : "43ad747c848141bdf616319eece6e5c4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969721050,
+          "stop" : 1620969721051,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "204fecae0b5a02ff",
+        "parentUid" : "43ad747c848141bdf616319eece6e5c4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969721053,
+          "stop" : 1620969721053,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание организации",
+        "uid" : "8df0725eae1ae7a3",
+        "parentUid" : "43ad747c848141bdf616319eece6e5c4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969721043,
+          "stop" : 1620969721044,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание командировки",
+        "uid" : "fb232bdcb7317b22",
+        "parentUid" : "43ad747c848141bdf616319eece6e5c4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969721013,
+          "stop" : 1620969721014,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "eb5d2bdf5a318cee",
+        "parentUid" : "43ad747c848141bdf616319eece6e5c4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969721055,
+          "stop" : 1620969721056,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "4abd82ac782de9f4",
+        "parentUid" : "43ad747c848141bdf616319eece6e5c4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969721059,
+          "stop" : 1620969721059,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "cfde6234b2dbd13b",
+        "parentUid" : "43ad747c848141bdf616319eece6e5c4",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1620969718301,
+          "stop" : 1620969718302,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "473917806fa5c21d",
+        "parentUid" : "43ad747c848141bdf616319eece6e5c4",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969721038,
+          "stop" : 1620969721039,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43ad747c848141bdf616319eece6e5c4"
+    }, {
+      "name" : "33061@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "createNewProjectTest()",
+        "uid" : "84563a675be0d6bb",
+        "parentUid" : "980d37d9baae1b8ee3120e75208d5f9f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010314820,
+          "stop" : 1621010323034,
+          "duration" : 8214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LoginWithPageObjectTest",
+        "uid" : "f955c57235d45898",
+        "parentUid" : "980d37d9baae1b8ee3120e75208d5f9f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010366402,
+          "stop" : 1621010366402,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createBusinessTrip()",
+        "uid" : "5a3e0807807b5a0a",
+        "parentUid" : "980d37d9baae1b8ee3120e75208d5f9f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010332641,
+          "stop" : 1621010349373,
+          "duration" : 16732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createOrganization()",
+        "uid" : "4e8e423d71ebe035",
+        "parentUid" : "980d37d9baae1b8ee3120e75208d5f9f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010323147,
+          "stop" : 1621010332619,
+          "duration" : 9472
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsTrianglePositive()",
+        "uid" : "808bf3ddc8bfe838",
+        "parentUid" : "980d37d9baae1b8ee3120e75208d5f9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621010366308,
+          "stop" : 1621010366321,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleTwoSidesLess()",
+        "uid" : "18dec569138e0c9d",
+        "parentUid" : "980d37d9baae1b8ee3120e75208d5f9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621010366003,
+          "stop" : 1621010366264,
+          "duration" : 261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive()",
+        "uid" : "d02e67d82d4b1da6",
+        "parentUid" : "980d37d9baae1b8ee3120e75208d5f9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621010366360,
+          "stop" : 1621010366362,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createContactPerson()",
+        "uid" : "787f97005d8dd95c",
+        "parentUid" : "980d37d9baae1b8ee3120e75208d5f9f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010349388,
+          "stop" : 1621010365949,
+          "duration" : 16561
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleNegativeSide()",
+        "uid" : "6f7e13c1f86da4a2",
+        "parentUid" : "980d37d9baae1b8ee3120e75208d5f9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621010366296,
+          "stop" : 1621010366297,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleZero()",
+        "uid" : "34bba409c3f6daba",
+        "parentUid" : "980d37d9baae1b8ee3120e75208d5f9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621010366305,
+          "stop" : 1621010366305,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "980d37d9baae1b8ee3120e75208d5f9f"
+    }, {
+      "name" : "33179@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "createOrganization()",
+        "uid" : "458b12fd827ad382",
+        "parentUid" : "a30d1d00c5edb2c15a456b9bcec832cc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010453879,
+          "stop" : 1621010463885,
+          "duration" : 10006
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createBusinessTrip()",
+        "uid" : "6f66979a8ae13d4a",
+        "parentUid" : "a30d1d00c5edb2c15a456b9bcec832cc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010463912,
+          "stop" : 1621010480834,
+          "duration" : 16922
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewProjectTest()",
+        "uid" : "b44b3e61a91ac32f",
+        "parentUid" : "a30d1d00c5edb2c15a456b9bcec832cc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010446348,
+          "stop" : 1621010453716,
+          "duration" : 7368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createContactPerson()",
+        "uid" : "d321e272731c0b6e",
+        "parentUid" : "a30d1d00c5edb2c15a456b9bcec832cc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010480851,
+          "stop" : 1621010483551,
+          "duration" : 2700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a30d1d00c5edb2c15a456b9bcec832cc"
+    }, {
+      "name" : "25896@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "loginTest",
+        "uid" : "9d25a92b553a43aa",
+        "parentUid" : "880c046ac2718f191377c805a398ca72",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620967548556,
+          "stop" : 1620967548556,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goToPage",
+        "uid" : "79a8e8773e0fcc74",
+        "parentUid" : "880c046ac2718f191377c805a398ca72",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620967548457,
+          "stop" : 1620967548460,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "8a7fcaf7f3fa8223",
+        "parentUid" : "880c046ac2718f191377c805a398ca72",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620967548551,
+          "stop" : 1620967548551,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "e53a9cd42d670151",
+        "parentUid" : "880c046ac2718f191377c805a398ca72",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1620967544964,
+          "stop" : 1620967544965,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "6a30ca32cd74f6d7",
+        "parentUid" : "880c046ac2718f191377c805a398ca72",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620967548563,
+          "stop" : 1620967548567,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "fc0db7056b853699",
+        "parentUid" : "880c046ac2718f191377c805a398ca72",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620967548542,
+          "stop" : 1620967548543,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание командировки",
+        "uid" : "b58a4d9ca1a34f02",
+        "parentUid" : "880c046ac2718f191377c805a398ca72",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620967548536,
+          "stop" : 1620967548537,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "23cde286172de47e",
+        "parentUid" : "880c046ac2718f191377c805a398ca72",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620967548554,
+          "stop" : 1620967548554,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание организации",
+        "uid" : "3651eb1b25eca2b1",
+        "parentUid" : "880c046ac2718f191377c805a398ca72",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620967548547,
+          "stop" : 1620967548547,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "880c046ac2718f191377c805a398ca72"
+    }, {
+      "name" : "26786@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "createNewExpenseRequest",
+        "uid" : "9bf63af1c10a92ac",
+        "parentUid" : "0ab1e4341c2913128bcb46606688b059",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969980425,
+          "stop" : 1620969980426,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "d8e32268fe4e6b34",
+        "parentUid" : "0ab1e4341c2913128bcb46606688b059",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1620969977717,
+          "stop" : 1620969977719,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание командировки",
+        "uid" : "cea146e7906d4ba7",
+        "parentUid" : "0ab1e4341c2913128bcb46606688b059",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969980397,
+          "stop" : 1620969980399,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "3b11c02b5dff2fbc",
+        "parentUid" : "0ab1e4341c2913128bcb46606688b059",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969980428,
+          "stop" : 1620969980428,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "f2c1e04d00f8b17d",
+        "parentUid" : "0ab1e4341c2913128bcb46606688b059",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969980407,
+          "stop" : 1620969980408,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "9af52f88dd85d796",
+        "parentUid" : "0ab1e4341c2913128bcb46606688b059",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969980431,
+          "stop" : 1620969980432,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание организации",
+        "uid" : "61146370f611b5a1",
+        "parentUid" : "0ab1e4341c2913128bcb46606688b059",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969980417,
+          "stop" : 1620969980417,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goToPage",
+        "uid" : "cf139f939712e21c",
+        "parentUid" : "0ab1e4341c2913128bcb46606688b059",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620969980340,
+          "stop" : 1620969980341,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "fcd878dd80ab759f",
+        "parentUid" : "0ab1e4341c2913128bcb46606688b059",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620969980420,
+          "stop" : 1620969980420,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0ab1e4341c2913128bcb46606688b059"
+    }, {
+      "name" : "33290@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "createBusinessTrip()",
+        "uid" : "c94d7cd8b229ba07",
+        "parentUid" : "f1589c7dfdd35894e1bec5545ee92940",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010619335,
+          "stop" : 1621010627591,
+          "duration" : 8256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createOrganization()",
+        "uid" : "562d0dc1ec310922",
+        "parentUid" : "f1589c7dfdd35894e1bec5545ee92940",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010597591,
+          "stop" : 1621010619319,
+          "duration" : 21728
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createContactPerson()",
+        "uid" : "f0b9cae4501b2e47",
+        "parentUid" : "f1589c7dfdd35894e1bec5545ee92940",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621010627608,
+          "stop" : 1621010652695,
+          "duration" : 25087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewProjectTest()",
+        "uid" : "ed2841bceb4d27ae",
+        "parentUid" : "f1589c7dfdd35894e1bec5545ee92940",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621010582174,
+          "stop" : 1621010597429,
+          "duration" : 15255
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1589c7dfdd35894e1bec5545ee92940"
+    }, {
+      "name" : "26133@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "createNewExpenseRequest",
+        "uid" : "3207873b7569d55e",
+        "parentUid" : "7acd5c67e27a5b468bce127f77d619f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620968035384,
+          "stop" : 1620968048553,
+          "duration" : 13169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "30d7a1b35f559a77",
+        "parentUid" : "7acd5c67e27a5b468bce127f77d619f9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620968048647,
+          "stop" : 1620968048664,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "6196f807d7231ea1",
+        "parentUid" : "7acd5c67e27a5b468bce127f77d619f9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620968048668,
+          "stop" : 1620968048680,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7acd5c67e27a5b468bce127f77d619f9"
+    }, {
+      "name" : "26376@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "efb0d878d28c4d53",
+        "parentUid" : "5775b787778dd83a582ee3370d7cdb84",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620968871915,
+          "stop" : 1620968875608,
+          "duration" : 3693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "bfc01360cc9a8072",
+        "parentUid" : "5775b787778dd83a582ee3370d7cdb84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620968853586,
+          "stop" : 1620968866111,
+          "duration" : 12525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5775b787778dd83a582ee3370d7cdb84"
+    }, {
+      "name" : "26040@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "996351523b74054b",
+        "parentUid" : "cfe75e1542162f71307a2439e3e30931",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620967780114,
+          "stop" : 1620967792222,
+          "duration" : 12108
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "f585896f9489b566",
+        "parentUid" : "cfe75e1542162f71307a2439e3e30931",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620967801545,
+          "stop" : 1620967830673,
+          "duration" : 29128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cfe75e1542162f71307a2439e3e30931"
+    }, {
+      "name" : "25962@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "createNewExpenseRequest",
+        "uid" : "24d994b16edc0d1a",
+        "parentUid" : "cd03c55c79332d341289ff09781c3bbb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620967645969,
+          "stop" : 1620967650836,
+          "duration" : 4867
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "fc426483ce475a3d",
+        "parentUid" : "cd03c55c79332d341289ff09781c3bbb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620967650955,
+          "stop" : 1620967650973,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "49048ba1bef29943",
+        "parentUid" : "cd03c55c79332d341289ff09781c3bbb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620967650940,
+          "stop" : 1620967650950,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd03c55c79332d341289ff09781c3bbb"
+    }, {
+      "name" : "27317@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "goToPage",
+        "uid" : "378ac8bb32350432",
+        "parentUid" : "faa436428501d9d08bf2fc478823db74",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620971261112,
+          "stop" : 1620971261116,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "ab4ebe68fc0d1f2c",
+        "parentUid" : "faa436428501d9d08bf2fc478823db74",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971261217,
+          "stop" : 1620971261218,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "a9d2b54840e6e923",
+        "parentUid" : "faa436428501d9d08bf2fc478823db74",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971261206,
+          "stop" : 1620971261207,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "7c74c2f1306f00eb",
+        "parentUid" : "faa436428501d9d08bf2fc478823db74",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971261214,
+          "stop" : 1620971261214,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "b3a887054194495f",
+        "parentUid" : "faa436428501d9d08bf2fc478823db74",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620971261211,
+          "stop" : 1620971261212,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "faa436428501d9d08bf2fc478823db74"
+    }, {
+      "name" : "26340@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "createNewExpenseRequest",
+        "uid" : "64ac3d128d1abccf",
+        "parentUid" : "ac7bfc11d2eb937f43ece7fc76af0a6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620968818229,
+          "stop" : 1620968831606,
+          "duration" : 13377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "c38b078226f8d884",
+        "parentUid" : "ac7bfc11d2eb937f43ece7fc76af0a6c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620968831701,
+          "stop" : 1620968831715,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "f5b5ff6a960b89e2",
+        "parentUid" : "ac7bfc11d2eb937f43ece7fc76af0a6c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620968831724,
+          "stop" : 1620968831738,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac7bfc11d2eb937f43ece7fc76af0a6c"
+    }, {
+      "name" : "26330@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "testIsNumberPositive",
+        "uid" : "87fc7c5507c432b0",
+        "parentUid" : "29f46b815fbebab32b92d587f14bdbbb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620968794318,
+          "stop" : 1620968794587,
+          "duration" : 269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "29f46b815fbebab32b92d587f14bdbbb"
+    }, {
+      "name" : "26005@iMac-User.main(1)",
+      "children" : [ {
+        "name" : "createNewExpenseRequest",
+        "uid" : "5c0f197cd993d879",
+        "parentUid" : "89a3a021f34d914616f3f3cc13926cc7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620967742799,
+          "stop" : 1620967746739,
+          "duration" : 3940
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "212aa104c02f110a",
+        "parentUid" : "89a3a021f34d914616f3f3cc13926cc7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620967746875,
+          "stop" : 1620967746884,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "ca9d7763b43902d4",
+        "parentUid" : "89a3a021f34d914616f3f3cc13926cc7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620967746857,
+          "stop" : 1620967746867,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "89a3a021f34d914616f3f3cc13926cc7"
+    } ],
+    "uid" : "5b51837e549badecfb6833017adf1a9b"
+  }, {
+    "name" : "iMac-User.local",
+    "children" : [ {
+      "name" : "31743@iMac-User.local.main(1)",
+      "children" : [ {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "5697bab4c80bae8a",
+        "parentUid" : "86297456dc053d35364e9714bf1a1e0b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006297984,
+          "stop" : 1621006297985,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "8f48bce4884c4256",
+        "parentUid" : "86297456dc053d35364e9714bf1a1e0b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006297981,
+          "stop" : 1621006297981,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "3527e595987cb56",
+        "parentUid" : "86297456dc053d35364e9714bf1a1e0b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006297977,
+          "stop" : 1621006297978,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание организации",
+        "uid" : "311340553fbd1104",
+        "parentUid" : "86297456dc053d35364e9714bf1a1e0b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006297971,
+          "stop" : 1621006297971,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "62c0b7c71a53f468",
+        "parentUid" : "86297456dc053d35364e9714bf1a1e0b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006297964,
+          "stop" : 1621006297965,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание командировки",
+        "uid" : "de98c5d350b4320f",
+        "parentUid" : "86297456dc053d35364e9714bf1a1e0b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006297956,
+          "stop" : 1621006297957,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "1d87966ae14777dc",
+        "parentUid" : "86297456dc053d35364e9714bf1a1e0b",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006297974,
+          "stop" : 1621006297974,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "1f92339f063a5fcf",
+        "parentUid" : "86297456dc053d35364e9714bf1a1e0b",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1621006295890,
+          "stop" : 1621006295892,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goToPage",
+        "uid" : "2a3b49bef1a0847f",
+        "parentUid" : "86297456dc053d35364e9714bf1a1e0b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621006297915,
+          "stop" : 1621006297917,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "86297456dc053d35364e9714bf1a1e0b"
+    }, {
+      "name" : "32930@iMac-User.local.main(1)",
+      "children" : [ {
+        "name" : "LoginWithPageObjectTest",
+        "uid" : "8cf70cbf460d1433",
+        "parentUid" : "4930713282b67a03f27f684810b9d274",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621009803211,
+          "stop" : 1621009803211,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CRMTests",
+        "uid" : "6eb3b6b0f3af14be",
+        "parentUid" : "4930713282b67a03f27f684810b9d274",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621009802852,
+          "stop" : 1621009802853,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsTrianglePositive()",
+        "uid" : "6e1212b34c63c742",
+        "parentUid" : "4930713282b67a03f27f684810b9d274",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009803178,
+          "stop" : 1621009803184,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive()",
+        "uid" : "f4e9b055c76077d3",
+        "parentUid" : "4930713282b67a03f27f684810b9d274",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009803195,
+          "stop" : 1621009803196,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleZero()",
+        "uid" : "27c7e9d525c541",
+        "parentUid" : "4930713282b67a03f27f684810b9d274",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009803174,
+          "stop" : 1621009803175,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleTwoSidesLess()",
+        "uid" : "201cac9394db06b7",
+        "parentUid" : "4930713282b67a03f27f684810b9d274",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009803003,
+          "stop" : 1621009803164,
+          "duration" : 161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleNegativeSide()",
+        "uid" : "ac6c829e915bdebc",
+        "parentUid" : "4930713282b67a03f27f684810b9d274",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009803169,
+          "stop" : 1621009803170,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4930713282b67a03f27f684810b9d274"
+    }, {
+      "name" : "32675@iMac-User.local.main(1)",
+      "children" : [ {
+        "name" : "LoginWithPageObjectTest",
+        "uid" : "7bb6383390e277fc",
+        "parentUid" : "7cfa13581ecfdfab533cde10cbb89641",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621009228848,
+          "stop" : 1621009228848,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleTwoSidesLess()",
+        "uid" : "ff5d5fba7880ae1",
+        "parentUid" : "7cfa13581ecfdfab533cde10cbb89641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009228591,
+          "stop" : 1621009228782,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive()",
+        "uid" : "c6e61f90b22b45ea",
+        "parentUid" : "7cfa13581ecfdfab533cde10cbb89641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009228819,
+          "stop" : 1621009228820,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsTrianglePositive()",
+        "uid" : "16e050e11ed0358d",
+        "parentUid" : "7cfa13581ecfdfab533cde10cbb89641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009228795,
+          "stop" : 1621009228802,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleNegativeSide()",
+        "uid" : "e24c10abafaf7d75",
+        "parentUid" : "7cfa13581ecfdfab533cde10cbb89641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009228786,
+          "stop" : 1621009228787,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CRMTests",
+        "uid" : "2fc325c7b72d9b53",
+        "parentUid" : "7cfa13581ecfdfab533cde10cbb89641",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621009228439,
+          "stop" : 1621009228440,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleZero()",
+        "uid" : "9e04fd960b400ec9",
+        "parentUid" : "7cfa13581ecfdfab533cde10cbb89641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009228790,
+          "stop" : 1621009228791,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7cfa13581ecfdfab533cde10cbb89641"
+    }, {
+      "name" : "31915@iMac-User.local.main(1)",
+      "children" : [ {
+        "name" : "goToPage",
+        "uid" : "6a51c243abfeae49",
+        "parentUid" : "b0812522598165aa7e26dc76145c9834",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621006663243,
+          "stop" : 1621006663246,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "40a1f0b5d23d862e",
+        "parentUid" : "b0812522598165aa7e26dc76145c9834",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006663440,
+          "stop" : 1621006663445,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "17a6b7d75004e9b4",
+        "parentUid" : "b0812522598165aa7e26dc76145c9834",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006663488,
+          "stop" : 1621006663489,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "c5ba92ef65b2e5da",
+        "parentUid" : "b0812522598165aa7e26dc76145c9834",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006663464,
+          "stop" : 1621006663464,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "9bf8da0446a8ba9a",
+        "parentUid" : "b0812522598165aa7e26dc76145c9834",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006663468,
+          "stop" : 1621006663468,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b0812522598165aa7e26dc76145c9834"
+    }, {
+      "name" : "27791@iMac-User.local.main(1)",
+      "children" : [ {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "d090bd1f3adc1847",
+        "parentUid" : "3d902144c6352a7240f0b327c72c3943",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620974024337,
+          "stop" : 1620974024337,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "a5e5f17e9c6abb1f",
+        "parentUid" : "3d902144c6352a7240f0b327c72c3943",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620974024335,
+          "stop" : 1620974024335,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "7b4af2c8d72510be",
+        "parentUid" : "3d902144c6352a7240f0b327c72c3943",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1620974022161,
+          "stop" : 1620974022163,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "15907e2c5e974ed3",
+        "parentUid" : "3d902144c6352a7240f0b327c72c3943",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620974024328,
+          "stop" : 1620974024329,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "729c3afa6362d657",
+        "parentUid" : "3d902144c6352a7240f0b327c72c3943",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620974024331,
+          "stop" : 1620974024331,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание командировки",
+        "uid" : "36ab8bb5d5edeb30",
+        "parentUid" : "3d902144c6352a7240f0b327c72c3943",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620974024310,
+          "stop" : 1620974024311,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goToPage",
+        "uid" : "8b98e12090620093",
+        "parentUid" : "3d902144c6352a7240f0b327c72c3943",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620974024270,
+          "stop" : 1620974024271,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание организации",
+        "uid" : "bb5036e2d1d104bb",
+        "parentUid" : "3d902144c6352a7240f0b327c72c3943",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620974024323,
+          "stop" : 1620974024324,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "933459f7068db46f",
+        "parentUid" : "3d902144c6352a7240f0b327c72c3943",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1620974024317,
+          "stop" : 1620974024318,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3d902144c6352a7240f0b327c72c3943"
+    }, {
+      "name" : "32617@iMac-User.local.main(1)",
+      "children" : [ {
+        "name" : "checkExceptionWhenNotTriangleTwoSidesLess()",
+        "uid" : "2fc10cb76220f391",
+        "parentUid" : "f11ac51903bef1b3b486484238d61d21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009083931,
+          "stop" : 1621009084218,
+          "duration" : 287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsTrianglePositive()",
+        "uid" : "e35a98eda48b6428",
+        "parentUid" : "f11ac51903bef1b3b486484238d61d21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009084231,
+          "stop" : 1621009084239,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LoginWithPageObjectTest",
+        "uid" : "ba60a353659ce481",
+        "parentUid" : "f11ac51903bef1b3b486484238d61d21",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621009084267,
+          "stop" : 1621009084267,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleZero()",
+        "uid" : "56f21384fc795926",
+        "parentUid" : "f11ac51903bef1b3b486484238d61d21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009084226,
+          "stop" : 1621009084227,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive()",
+        "uid" : "87268e1813e93b54",
+        "parentUid" : "f11ac51903bef1b3b486484238d61d21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009084249,
+          "stop" : 1621009084255,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleNegativeSide()",
+        "uid" : "9d45887bb584a3c0",
+        "parentUid" : "f11ac51903bef1b3b486484238d61d21",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009084223,
+          "stop" : 1621009084224,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CRMTests",
+        "uid" : "485ccccb30601dc2",
+        "parentUid" : "f11ac51903bef1b3b486484238d61d21",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621009083755,
+          "stop" : 1621009083757,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f11ac51903bef1b3b486484238d61d21"
+    }, {
+      "name" : "32698@iMac-User.local.main(1)",
+      "children" : [ {
+        "name" : "checkExceptionWhenNotTriangleNegativeSide()",
+        "uid" : "4730d194c109d896",
+        "parentUid" : "016c59e026baaefe5a6d1b4b4e0da002",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009276410,
+          "stop" : 1621009276411,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive()",
+        "uid" : "9a91759332fba1bf",
+        "parentUid" : "016c59e026baaefe5a6d1b4b4e0da002",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009276444,
+          "stop" : 1621009276446,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleTwoSidesLess()",
+        "uid" : "964ad58061190fb",
+        "parentUid" : "016c59e026baaefe5a6d1b4b4e0da002",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009276227,
+          "stop" : 1621009276406,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsTrianglePositive()",
+        "uid" : "3fa38c22b2cbc64a",
+        "parentUid" : "016c59e026baaefe5a6d1b4b4e0da002",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009276418,
+          "stop" : 1621009276425,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LoginWithPageObjectTest",
+        "uid" : "23059030a00f0209",
+        "parentUid" : "016c59e026baaefe5a6d1b4b4e0da002",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621009276478,
+          "stop" : 1621009276478,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleZero()",
+        "uid" : "e45f38f33d0ecc31",
+        "parentUid" : "016c59e026baaefe5a6d1b4b4e0da002",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009276414,
+          "stop" : 1621009276414,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CRMTests",
+        "uid" : "7b3b51fbc6396fc8",
+        "parentUid" : "016c59e026baaefe5a6d1b4b4e0da002",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621009276030,
+          "stop" : 1621009276032,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "016c59e026baaefe5a6d1b4b4e0da002"
+    }, {
+      "name" : "32640@iMac-User.local.main(1)",
+      "children" : [ {
+        "name" : "checkExceptionWhenNotTriangleTwoSidesLess()",
+        "uid" : "9249b2311fb5ce48",
+        "parentUid" : "6e5b34eeac05c1187056dd72f9f84b09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009192716,
+          "stop" : 1621009192996,
+          "duration" : 280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleZero()",
+        "uid" : "46a743a98d254b0f",
+        "parentUid" : "6e5b34eeac05c1187056dd72f9f84b09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009193004,
+          "stop" : 1621009193006,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsTrianglePositive()",
+        "uid" : "f3119eb1e3d811a4",
+        "parentUid" : "6e5b34eeac05c1187056dd72f9f84b09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009193010,
+          "stop" : 1621009193018,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleNegativeSide()",
+        "uid" : "e3ed89e867f9ab3f",
+        "parentUid" : "6e5b34eeac05c1187056dd72f9f84b09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009193000,
+          "stop" : 1621009193001,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LoginWithPageObjectTest",
+        "uid" : "3b267a1766e64532",
+        "parentUid" : "6e5b34eeac05c1187056dd72f9f84b09",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621009193077,
+          "stop" : 1621009193077,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CRMTests",
+        "uid" : "53f2c0a0fcbd8783",
+        "parentUid" : "6e5b34eeac05c1187056dd72f9f84b09",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621009192538,
+          "stop" : 1621009192539,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive()",
+        "uid" : "eb48c1f4544c265",
+        "parentUid" : "6e5b34eeac05c1187056dd72f9f84b09",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009193058,
+          "stop" : 1621009193060,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6e5b34eeac05c1187056dd72f9f84b09"
+    }, {
+      "name" : "31796@iMac-User.local.main(1)",
+      "children" : [ {
+        "name" : "createNewExpenseRequest",
+        "uid" : "bd8932b261f421af",
+        "parentUid" : "3495c41f97c5891c28eaabddaceef0f6",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006381800,
+          "stop" : 1621006381801,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "dd658cd7f7004de0",
+        "parentUid" : "3495c41f97c5891c28eaabddaceef0f6",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006381812,
+          "stop" : 1621006381813,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goToPage",
+        "uid" : "829a2200752ce59a",
+        "parentUid" : "3495c41f97c5891c28eaabddaceef0f6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621006381665,
+          "stop" : 1621006381668,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "38230d0bf987c4c0",
+        "parentUid" : "3495c41f97c5891c28eaabddaceef0f6",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006381808,
+          "stop" : 1621006381808,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "25a85709edc3ab7f",
+        "parentUid" : "3495c41f97c5891c28eaabddaceef0f6",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006381787,
+          "stop" : 1621006381791,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3495c41f97c5891c28eaabddaceef0f6"
+    }, {
+      "name" : "31664@iMac-User.local.main(1)",
+      "children" : [ {
+        "name" : "Создание организации",
+        "uid" : "2a23fd5e01c18a1e",
+        "parentUid" : "9fdb6db1f87f7404bbf46b899a68c813",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006097733,
+          "stop" : 1621006097734,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "7777a41a59042207",
+        "parentUid" : "9fdb6db1f87f7404bbf46b899a68c813",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006097827,
+          "stop" : 1621006097828,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "96328f65e9663f60",
+        "parentUid" : "9fdb6db1f87f7404bbf46b899a68c813",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006097810,
+          "stop" : 1621006097811,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goToPage",
+        "uid" : "83718183cd80a7a2",
+        "parentUid" : "9fdb6db1f87f7404bbf46b899a68c813",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621006097663,
+          "stop" : 1621006097670,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание контактного лица в CRM",
+        "uid" : "efc2de4ba1fb3e7c",
+        "parentUid" : "9fdb6db1f87f7404bbf46b899a68c813",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006097729,
+          "stop" : 1621006097729,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание нового проекта в CRM",
+        "uid" : "849a36568f3f8797",
+        "parentUid" : "9fdb6db1f87f7404bbf46b899a68c813",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1621006094956,
+          "stop" : 1621006094957,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создание командировки",
+        "uid" : "ace403eef537abe8",
+        "parentUid" : "9fdb6db1f87f7404bbf46b899a68c813",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006097718,
+          "stop" : 1621006097719,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "babbc9abbe1b74bc",
+        "parentUid" : "9fdb6db1f87f7404bbf46b899a68c813",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006097815,
+          "stop" : 1621006097817,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "1871f414cc30e551",
+        "parentUid" : "9fdb6db1f87f7404bbf46b899a68c813",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621006097766,
+          "stop" : 1621006097777,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9fdb6db1f87f7404bbf46b899a68c813"
+    }, {
+      "name" : "32731@iMac-User.local.main(1)",
+      "children" : [ {
+        "name" : "LoginWithPageObjectTest",
+        "uid" : "e09039a41f7dc10b",
+        "parentUid" : "8e67a57f0a808dcace48184fde4a458a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621009365720,
+          "stop" : 1621009365720,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleZero()",
+        "uid" : "35c24bb4e17aec40",
+        "parentUid" : "8e67a57f0a808dcace48184fde4a458a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009365687,
+          "stop" : 1621009365688,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive()",
+        "uid" : "2cb498514f07d159",
+        "parentUid" : "8e67a57f0a808dcace48184fde4a458a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009365706,
+          "stop" : 1621009365708,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleTwoSidesLess()",
+        "uid" : "6a2df6b4b57fbc34",
+        "parentUid" : "8e67a57f0a808dcace48184fde4a458a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009365506,
+          "stop" : 1621009365679,
+          "duration" : 173
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsTrianglePositive()",
+        "uid" : "f2ed1df5f8012a52",
+        "parentUid" : "8e67a57f0a808dcace48184fde4a458a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009365691,
+          "stop" : 1621009365698,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "CRMTests",
+        "uid" : "87dce2b25dead9c9",
+        "parentUid" : "8e67a57f0a808dcace48184fde4a458a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621009365379,
+          "stop" : 1621009365381,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkExceptionWhenNotTriangleNegativeSide()",
+        "uid" : "1dcd3765cdd9e317",
+        "parentUid" : "8e67a57f0a808dcace48184fde4a458a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621009365683,
+          "stop" : 1621009365684,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e67a57f0a808dcace48184fde4a458a"
+    }, {
+      "name" : "32044@iMac-User.local.main(1)",
+      "children" : [ {
+        "name" : "loginTest",
+        "uid" : "abc725403278e8db",
+        "parentUid" : "a9f42e280aa1b267070f7529d64220b9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621007190401,
+          "stop" : 1621007190407,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTestWithFluentPage",
+        "uid" : "33ab6083987ea3b7",
+        "parentUid" : "a9f42e280aa1b267070f7529d64220b9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621007190413,
+          "stop" : 1621007190414,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testIsNumberPositive",
+        "uid" : "c8ba4e42b1c6122f",
+        "parentUid" : "a9f42e280aa1b267070f7529d64220b9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621007190392,
+          "stop" : 1621007190393,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createNewExpenseRequest",
+        "uid" : "95b2e72296d37e33",
+        "parentUid" : "a9f42e280aa1b267070f7529d64220b9",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1621007190397,
+          "stop" : 1621007190397,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "goToPage",
+        "uid" : "71f88a9ff07eef04",
+        "parentUid" : "a9f42e280aa1b267070f7529d64220b9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621007190287,
+          "stop" : 1621007190289,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a9f42e280aa1b267070f7529d64220b9"
+    } ],
+    "uid" : "4fede19a6d682581dca3918c22e0314c"
+  } ]
+}

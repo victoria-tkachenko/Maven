@@ -1,0 +1,55 @@
+{
+  "uid" : "87268e1813e93b54",
+  "name" : "testIsNumberPositive()",
+  "fullName" : "homework4.FunctionsTest.testIsNumberPositive",
+  "historyId" : "b2ae5a9452eeb609d43f4f0350668f6d",
+  "time" : {
+    "start" : 1621009084249,
+    "stop" : 1621009084255,
+    "duration" : 6
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "iMac-User.local"
+  }, {
+    "name" : "thread",
+    "value" : "32617@iMac-User.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "homework4.FunctionsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "homework4.FunctionsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testIsNumberPositive"
+  }, {
+    "name" : "suite",
+    "value" : "homework4.FunctionsTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87268e1813e93b54.json",
+  "parameterValues" : [ ]
+}
